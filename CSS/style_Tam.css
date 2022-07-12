@@ -1219,4 +1219,92 @@ h3.title-style{
 .font-weight-bold{
     font-weight: 700;
 }
+/* */
+/* */
+/* */
 /* End Landing page */
+/* */
+/* */
+/* */
+/* Start 404 Error*/
+.w3l-content-area .site-main {
+    background: url(../img/error.jpg) no-repeat bottom;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+    padding: 70px 0px;
+    display: flex;
+    align-items: center;
+}
+.w3l-content-area .site-main::before {
+    content: "";
+    background: linear-gradient(75deg, rgb(16 16 16 / 62%) 10%, rgb(230 2 100 / 0%));
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.w3l-content-area .error-404.not-found {
+    max-width: 500px;
+}
+.w3l-content-area h2 {
+    font-size: 160px;
+    color: #fff;
+    line-height: 1;
+    font-weight: 500;
+}
+.w3l-content-area .page-header h1 {
+    font-size: 24px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.w3l-content-area .search {
+    position: relative;
+}
+.w3l-content-area .search .search-input {
+    padding: 0;
+    appearance: none;
+    border: none;
+    background: none;
+    padding: 10px 58px 10px 20px;
+    font-size: 16px;
+    color: #060606;
+    border: 2px solid rgb(255 255 255 / 29%);
+    border-radius: 35px;
+    background: #ffffff;
+    line-height: 36px;
+}
+.w3l-content-area .search .search-input{
+    width: calc(100% - 40px);
+    margin: auto;
+}
+.w3l-content-area button{
+    border: none;
+    color: #ff6e65;
+    line-height: 1;
+    background: none;
+    position: absolute;
+    right: 10%;
+    padding: 18px 18px;
+    font-size: 16px;
+}
+.w3l-content-area .user-action .btn-signup a {
+    background: none;
+    border-radius: 35px;
+    color: #eee;
+    margin-top: 50px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.w3l-content-area .fa-arrow-left{
+    margin-right: .5rem;
+}
+.w3l-content-area .btn-signup a:hover,
+.error-btn:hover{
+    color: #ff6e65;
+}
+/* End 404 Error*/
