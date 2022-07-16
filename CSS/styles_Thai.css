@@ -358,12 +358,7 @@ button,
   font-size: 12px;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: 80px;
-  margin-left: 80px;
-}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -614,11 +609,7 @@ h5.member a {
   font-weight: 600;
   color: #060606;
 }
-h3.title-big {
-  font-size: 45px;
-  line-height: 55px;
-  font-weight: 600;
-}
+
 .list-about-2 i {
   color: #ff6e65;
 }
@@ -1033,7 +1024,94 @@ blockquote {
   border: 1px solid #eee;
 }
 /* responsive */
-@media (max-width: 1200px) {
+/* Reponsive */
+
+/* desktop */
+@media screen and (max-width: 1200px) {
+
+}
+
+/* tablet */
+@media screen and (max-width: 992px) {
+    .top-header {
+        display: none;
+    }
+    button.navbar-toggler.collapsed .icon-close {
+        display: none;
+    }
+    .navbar{
+        padding: 0 !important;
+    }
+    .collapse {
+        display: none !important;
+    }
+    header .navbar{
+        font-weight: bold !important;
+    }
+    .navbar .gg-moon {
+        top: 20px;
+        right: 30px;
+    }
+}
+
+/* Phone (xoay ngang) */
+@media screen and (max-width: 768px) {
+    .top-header {
+        display: none;
+    }
+    button.navbar-toggler.collapsed .icon-close {
+        display: none;
+    }
+    .site-header{
+        padding: 0 !important;
+    }
+    .site-header {
+        display: none !important;
+    }
+    header .site-header{
+        font-weight: bold !important;
+    }
+    .navbar .gg-moon {
+        top: 20px;
+        right: 30px;
+    }   
+}
+
+/* phone (xoay dọc) */
+@media screen and (max-width: 576px) {
+.top-header {
+    display: none;
+}
+button.navbar-toggler.collapsed .icon-close {
+    display: none;
+}
+.navbar{
+    padding: 0 !important;
+}
+.collapse {
+    display: none !important;
+}
+header .navbar{
+    font-weight: bold !important;
+}
+.navbar .gg-moon {
+    top: 20px;
+    right: 30px;
+}
+.single-bottom-blog .media{
+    display: block;
+}
+}
+@media (max-width: 375px) {
+  h3.title-big {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}
+.navbar .navbar-brand:hover{
+  color: #ff6e65;
+}
+/* @media (max-width: 1200px) {
   legend {
     font-size: calc(1.275rem + 0.3vw);
   }
@@ -5210,7 +5288,7 @@ screen and (max-height: 300px) {
   /**
        * Remove all paddings around the image on small screen
        */
-  .mfp-img-cont-ser .mfp-image-holder {
+  /* .mfp-img-cont-ser .mfp-image-holder {
     padding-left: 0;
     padding-right: 0;
   }
@@ -5259,7 +5337,7 @@ screen and (max-height: 300px) {
     text-align: center;
     padding: 0;
   }
-}
+
 
 @media all and (max-width: 900px) {
   .mfp-arrow {
@@ -6188,4 +6266,4 @@ screen and (max-height: 300px) {
     padding: 0.5rem;
     font-size: 15px;
   }
-}
+}  */

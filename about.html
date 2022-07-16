@@ -15,7 +15,10 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
-    <link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link
+      href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      rel="stylesheet"
+    />
     <!-- Bootstrap CSS v5.2.0-beta1 -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -91,11 +94,13 @@
     <!-- header -->
     <header id="site-header" class="fixed-top">
       <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg stroke">
+        <nav
+          class="navbar d-flex align-items-center justify-content-between flex-wrap navbar-expand-lg"
+        >
           <h1>
             <a
               class="navbar-brand d-flex align-items-center"
-              href="#index.html"
+              href="./index.html"
             >
               <img src="/img/logo.png" alt class="mr-1" />
               Studious
@@ -112,7 +117,10 @@
             <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
             <span class="navbar-toggler-icon fa icon-close fa-times"> </span>
           </button>
-          <div class="collape navbar-collapse" id="navbarTogglerDemo02">
+          <div
+            class="collapse d-flex flex-grow-1 justify-content-end"
+            id="navbarTogglerDemo02"
+          >
             <ul class="navbar-nav ml-lg-auto">
               <li class="nav-item">
                 <a class="nav-link" href="index.html"
@@ -136,7 +144,7 @@
                   aria-haspopup="true"
                   aria-expanded="false"
                   >Pages
-                  <span class="fa fa-angle-down"> </span>
+                  <!-- <span class="fa fa-angle-down"> </span> -->
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="./blogpost.html">Blog Posts</a>
@@ -216,30 +224,45 @@
     <!-- about section -->
     <section class="video-section py-5">
       <div class="container py-md-5 py-4">
-          <div class="row">
-              <div class="col-lg-6 about-right-faq align-self pr-lg-5">
-                  <h3 class="title-big">Our Mission is to Provide a World‑class Education</h3>
-                  <p class="mt-3">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
-                      ultrices in ligula. Semper at tempufddfel. </p>
-              </div>
-              <div class="col-lg-6 left-wthree-img-video text-righ pr-lg-5 mt-lg-0 mt-5">
-                  <div class="position-relative text-center">
-                      <img src="./img/about.jpg" alt="" class="img-fluid">
-                      <a href="#small-dialog" class="popup-with-zoom-anim play-view text-center position-absolute">
-                          <span class="video-play-icon">
-                              <span class="fa fa-play"></span>
-                          </span>
-                      </a>
-
-                      <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
-                      <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
-                          <iframe title="video" src="https://player.vimeo.com/video/83651159?title=0&amp;byline=0&amp;portrait=0"  allow="autoplay; fullscreen" allowfullscreen="" __idm_id__="1277953"></iframe>
-                      </div>
-                  </div>
-              </div>
+        <div class="row">
+          <div class="col-lg-6 about-right-faq align-self pr-lg-5">
+            <h3 class="title-big">
+              Our Mission is to Provide a World‑class Education
+            </h3>
+            <p class="mt-3">
+              Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+              ultrices in ligula. Semper at tempufddfel.
+            </p>
           </div>
+          <div
+            class="col-lg-6 left-wthree-img-video text-righ pr-lg-5 mt-lg-0 mt-5"
+          >
+            <div class="position-relative text-center">
+              <img src="./img/about.jpg" alt="" class="img-fluid" />
+              <a
+                href="#small-dialog"
+                class="popup-with-zoom-anim play-view text-center position-absolute"
+              >
+                <span class="video-play-icon">
+                  <span class="fa fa-play"></span>
+                </span>
+              </a>
+
+              <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+              <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+                <iframe
+                  title="video"
+                  src="https://player.vimeo.com/video/83651159?title=0&amp;byline=0&amp;portrait=0"
+                  allow="autoplay; fullscreen"
+                  allowfullscreen=""
+                  __idm_id__="1277953"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-  </section>
+    </section>
 
     <div style="margin: 8px auto; display: block; text-align: center">
       <!---728x90--->
@@ -354,7 +377,7 @@
           </h3>
         </div>
         <div class="row text-center">
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-3 col-sm-6 mt-lg-0 mt-5">
             <div class="team-block-single">
               <div class="team-grids">
                 <a href="#team-single">
@@ -864,33 +887,33 @@
     <!-- menu-js -->
     <script>
       $(window).on("scroll", function () {
-          var scroll = $(window).scrollTop();
+        var scroll = $(window).scrollTop();
 
-          if (scroll >= 80) {
-              $("#site-header").addClass("nav-fixed");
-          } else {
-              $("#site-header").removeClass("nav-fixed");
-          }
+        if (scroll >= 80) {
+          $("#site-header").addClass("nav-fixed");
+        } else {
+          $("#site-header").removeClass("nav-fixed");
+        }
       });
 
       //Main navigation Active Class Add Remove
       $(".navbar-toggler").on("click", function () {
-          $("header").toggleClass("active");
+        $("header").toggleClass("active");
       });
       $(document).on("ready", function () {
+        if ($(window).width() > 991) {
+          $("header").removeClass("active");
+        }
+        $(window).on("resize", function () {
           if ($(window).width() > 991) {
-              $("header").removeClass("active");
+            $("header").removeClass("active");
           }
-          $(window).on("resize", function () {
-              if ($(window).width() > 991) {
-                  $("header").removeClass("active");
-              }
-          });
+        });
       });
-  </script>
+    </script>
 
     <!-- Bootstrap JavaScript Libraries -->
-    
+
     <script src="./js/bootstrap.min.js"></script>
   </body>
 </html>
