@@ -138,9 +138,11 @@ img{
 .navbar .nav-item,
 .navbar .nav-link:hover,
 .navbar form .fa-search:hover,
-.navbar .gg-moon:hover{
-    color: #ff6e65;
-    transition: all 0.5s ease;
+.navbar .gg-moon:hover,
+.navbar .dropdown .dropdown-menu li a:hover{
+    color: #ff6e65 !important;
+    transition: all 0.5s ease !important;
+    background-color: #ffffff !important;
 }
 /* Menu PAGES */
 a.dropdown-item.active {
@@ -1417,5 +1419,82 @@ table p {
     padding: 0.7em 2.5em;
     background: #001021;
 }
+/* End Email temple*/
+/* Reponsive */
 
+/* desktop */
+@media screen and (max-width: 1200px) {
 
+}
+
+/* tablet */
+@media screen and (max-width: 992px) {
+    .top-header {
+        display: none;
+    }
+    button.navbar-toggler.collapsed .icon-close {
+        display: none;
+    }
+    .navbar{
+        padding: 0 !important;
+    }
+    .collapse {
+        display: none !important;
+    }
+    header .navbar{
+        font-weight: bold !important;
+    }
+    .navbar .gg-moon {
+        top: 20px;
+        right: 30px;
+    }
+}
+
+/* Phone (xoay ngang) */
+@media screen and (max-width: 768px) {
+    .top-header {
+        display: none;
+    }
+    button.navbar-toggler.collapsed .icon-close {
+        display: none;
+    }
+    .navbar{
+        padding: 0 !important;
+    }
+    .collapse {
+        display: none !important;
+    }
+    header .navbar{
+        font-weight: bold !important;
+    }
+    .navbar .gg-moon {
+        top: 20px;
+        right: 30px;
+    }   
+}
+
+/* phone (xoay dọc) */
+@media screen and (max-width: 576px) {
+.top-header {
+    display: none;
+}
+button.navbar-toggler.collapsed .icon-close {
+    display: none;
+}
+.navbar{
+    padding: 0 !important;
+}
+.collapse {
+    display: none !important;
+}
+header .navbar{
+    font-weight: bold !important;
+}
+.navbar .gg-moon {
+    top: 20px;
+    right: 30px;
+}
+.single-bottom-blog .media{
+    display: block;
+}
+}
