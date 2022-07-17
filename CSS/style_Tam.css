@@ -1491,6 +1491,12 @@ table p {
     top: 20px;
     right: 30px;
   }
+  table {
+    width: 100% !important;
+  }
+  .email-hny-section {
+    padding: 2rem;
+  }
 }
 
 /* phone (xoay dọc) */
@@ -1516,6 +1522,27 @@ table p {
   }
   .single-bottom-blog .media {
     display: block;
+  }
+  table {
+    width: 100% !important;
+  }
+  td.sub-gd {
+    width: 100% !important;
+    display: block;
+    text-align: center;
+  }
+  .email-container {
+    width: 100% !important;
+  }
+  .heading-section-2 {
+    margin: 0 1.5em;
+  }
+  .heading-section h4 {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  p.para {
+    font-size: 15px !important;
   }
 }
 @media screen and (max-width: 375px) {
@@ -1545,4 +1572,25 @@ table p {
     font-size: 28px;
     line-height: 38px;
   }
+  table {
+    width: 100% !important;
+  }
+  td.sub-gd {
+    width: 100% !important;
+    display: block;
+    text-align: center;
+  }
+  .email-container {
+    width: 100% !important;
+}
+.heading-section-2 {
+    margin: 0 1.5em;
+}
+.heading-section h4 {
+    font-size: 18px;
+    line-height: 23px;
+}
+p.para {
+    font-size: 15px !important;
+}
 }
