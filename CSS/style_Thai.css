@@ -307,7 +307,7 @@ button,
 }
 
 .inner-banner {
-  background: url(/img/bg4.jpg) no-repeat center;
+  background: url(../img/bg4.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -325,38 +325,29 @@ button,
   background: rgb(8 8 8 / 14%);
   z-index: -1;
 }
+
 .w3l-breadcrumb {
   display: block;
   margin: 0 auto;
-  z-index: 100;
-  padding-top: 120px;
   z-index: 99;
+  padding-top: 120px;
 }
-
-.breadcrumbs-custom-path {
-  text-align: center;
-  display: inline-block;
+.inner-banner .inner-text-title {
+  font-weight: bold;
+  color: #ffffff !important;
 }
-.breadcrumbs-custom-path {
-  text-align: center;
-  display: inline-block;
-}
-.breadcrumbs-custom-path li {
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 15px;
-  text-transform: capitalize;
+.breadcrumbs-custom-path p {
+  display: unset;
   color: #d4d4d4;
 }
-.breadcrumbs-custom-path a,
-.breadcrumbs-custom-path a:active {
-  color: #fff;
+.breadcrumbs-custom-path a {
+  color: #ffffff;
   opacity: 0.8;
 }
-.breadcrumbs-custom-path li span.fa {
-  font-size: 12px;
+.breadcrumbs-custom-path a:hover {
+  opacity: 1;
 }
+/* End Banner */
 
 
 .img-fluid {
