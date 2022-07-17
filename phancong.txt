@@ -1,0 +1,16 @@
+Đề tài : https://demo.w3layouts.com/demos_new/template_demo/13-03-2021/studious-liberty-demo_Free/425342591/web/index.html
+
+Link github : https://github.com/HongThai8/Studious-website
+
+Deploy : https://studious-lac.vercel.app/index.html
+Thông tin nhóm: 
+    Họ tên thành viên :
+    1 . Trần Nguyễn Minh Tâm
+    2 . Cù Huy Hồng Thái
+Các phần đã làm : 
+    1 . Trần Nguyễn Minh Tâm
+        index.html (Home) , course.html(Course) , blogspot.html(Blog spots) ,
+        blogsingle.html(Blog Single) , error.html(Error) , landingpage.html(Landing Page)
+    2 . Cù Huy Hồng Thái
+        about.html (About) , contact.html (Contact) , emailtemplate.html (Email Template),
+        shortcodes.html (Shortcodes).

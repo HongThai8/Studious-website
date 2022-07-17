@@ -1102,6 +1102,160 @@ header .navbar{
 .navbar .navbar-brand:hover{
   color: #ff6e65;
 }
+/* Start Footer */
+.w3l-footer-22 .footer-sub {
+  padding: 80px 0;
+  background: #060e1f;
+}
+.right-side {
+  padding: 50px;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background: #ffffff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -60px;
+  box-shadow: 0px -1px 41px 0px rgb(21 22 23 / 8%);
+}
+/* Form */
+.w3l-forms-9 h4.title-head {
+  font-size: 35px;
+  line-height: 40px;
+  color: #060606;
+  font-weight: 600;
+}
+.w3l-forms-9 .main-midd p {
+  font-size: 15px;
+  color: #707070;
+  letter-spacing: 1px;
+}
+.w3l-forms-9 form.rightside-form input {
+  background: transparent;
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  color: #060606;
+  width: 100%;
+  border-radius: 8px 0px 0px 8px;
+  height: 55px;
+  border: 1px solid #eeeeee;
+}
+.w3l-forms-9 .rightside-form button {
+  background: #0d369f;
+  border: none;
+  color: #ffffff;
+  padding: 16px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 0 8px 8px 0;
+}
+.w3l-forms-9 .rightside-form button:hover {
+  opacity: 0.9;
+}
+/* End forrm */
+.w3l-footer-22 .sub-columns {
+  margin-top: 120px;
+}
+.w3l-footer-22 .sub-one-left h6,
+.w3l-footer-22 .sub-two-right h6 {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(23, 54, 88, 0.4);
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+.w3l-footer-22 .sub-two-right a {
+  font-size: 14px;
+  line-height: 24px;
+  color: #cecece;
+  margin: 0 0 10px 0;
+  display: block;
+}
+.w3l-footer-22 .sub-two-right span {
+  margin-right: 10px;
+  color: #fff;
+}
+.w3l-footer-22 .column2 span {
+  font-size: 18px;
+  color: #ffffff;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 25px;
+  text-align: center;
+}
+.w3l-footer-22 .column2 a {
+  text-decoration: none;
+  color: #cecece;
+  line-height: 25px;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+}
+.w3l-footer-22 .href2 {
+  margin-top: 10px;
+  padding: 10px 0;
+}
+.w3l-footer-22 .column2 a:hover,
+.w3l-footer-22 .sub-two-right a:hover {
+  color: #ffffff;
+}
+.w3l-footer-22 .sub-one-left p,
+.w3l-footer-22 .sub-two-right p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #cecece;
+}
+.w3l-footer-22 .contact-para {
+  color: #cecece;
+  line-height: 25px;
+  font-size: 17px;
+  margin-top: 10px;
+}
+/* Col Right */
+.w3l-footer-22 .columns-2 {
+  margin-top: 1.2em;
+}
+.w3l-footer-22 .social a {
+  color: #ffffff;
+  width: 35px;
+  height: 35px;
+  background: rgba(255, 255, 255, 0.06);
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+}
+.w3l-footer-22 .social a span,
+.w3l-footer-22 .social a i {
+  font-size: 15px;
+  line-height: 35px;
+}
+.w3l-footer-22 .social a {
+  margin-right: 5px;
+}
+.w3l-footer-22 .social a:hover {
+  opacity: 0.8;
+  transition: 0.3s ease;
+}
+.w3l-footer-22 .ab-right-cont {
+  border-left: 1px solid rgb(64 73 82 / 51%);
+}
+/* bottom footer */
+.w3l-footer-22 .copyright-footer {
+  background: #040a17;
+  padding: 20px 0;
+}
+.w3l-footer-22 .columns p,
+.w3l-footer-22 .columns p a {
+  font-size: 15px;
+  line-height: 20px;
+  color: #a0a0a0;
+}
+/* End Footer */
 /* @media (max-width: 1200px) {
   legend {
     font-size: calc(1.275rem + 0.3vw);
